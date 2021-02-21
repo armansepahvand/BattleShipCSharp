@@ -13,6 +13,7 @@ namespace UnitTestBattleShip
         {
             GameBoard gameBoard = new GameBoard();
             bool results = gameBoard.IsShipInRange("b3b4b5");
+            Assert.IsTrue(results);
            
 
         }
@@ -21,7 +22,6 @@ namespace UnitTestBattleShip
         public void TestBoardSetters()
         {
             GameBoard gameBoard = new GameBoard();
-            //bool results = gameBoard.IsShipInRange("b3b4b5");
             gameBoard.Height = 6;
 
             Assert.AreEqual(gameBoard.Height, 6);
