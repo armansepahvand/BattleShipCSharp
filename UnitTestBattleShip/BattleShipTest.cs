@@ -11,12 +11,11 @@ namespace UnitTestBattleShip
         
 
         [TestMethod]
-        public void TestClassSetters()
+        public void TestShipSetters()
         {
-            BattleShip battleShip = new BattleShip();
-            gameBoard.Height = 6;
-
-            Assert.AreEqual(gameBoard.Height, 6);
+            Ship battleShip = new Ship("a1a2a3");
+            battleShip.Length = 6;
+            Assert.AreEqual(String.Join("", battleShip.ShipSlots), "a1a2a3" );
 
         }
 

@@ -18,7 +18,7 @@ namespace UnitTestBattleShip
         }
 
         [TestMethod]
-        public void TestClassSetters()
+        public void TestBoardSetters()
         {
             GameBoard gameBoard = new GameBoard();
             //bool results = gameBoard.IsShipInRange("b3b4b5");
