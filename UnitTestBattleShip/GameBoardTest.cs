@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace UnitTestBattleShip
 {
     [TestClass]
-    public class UnitTest1
+    public class GameBoardTest
     {
         [TestMethod]
         public void TestMethod1()
